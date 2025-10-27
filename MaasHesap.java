@@ -4,7 +4,7 @@
 * Tarih: 26 Ekim 2025
 * Açıklama: Görev-2 Geometrik hesaplayıcı 
 *
-* Bu program kullancıdan belirli verileri alır ve kullanıcının istediği hesaplamaları matematiksel olarak hesaplar.  
+* Bu program kullancıdan belirli verileri alarak maaş hesaplaması yapar. Sabitler sayesinde kolay yolla maaş hesaplayabilir  
 */ 
 
 import java.util.Scanner;
