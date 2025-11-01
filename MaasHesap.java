@@ -80,5 +80,7 @@ public class MaasHesap {
         System.out.printf("\nNET MAAŞ                : %.2f TL          " , net_maas);
         System.out.println("\n================================");
 
+        input.close();
+
     }
 }
