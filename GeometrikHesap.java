@@ -37,5 +37,7 @@ public class GeometrikHesap {
 
     double kure_yuzey_alanı =4 * pi * Math.pow(yaricap,2);
     System.out.printf("\nKüre Yüzey Alanı: %.2f cm^2", kure_yuzey_alanı);
+        
+        input.close();
     }
 }
