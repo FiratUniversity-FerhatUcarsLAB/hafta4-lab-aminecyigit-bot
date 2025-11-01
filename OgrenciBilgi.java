@@ -54,18 +54,24 @@ public class OgrenciBilgi {
 
             // degiskeler aliniyor
             Scanner input = new Scanner(System.in);
+            
+            //Ad
             System.out.print("Adınızı girin: ");
             String ad = input.nextLine();
 
+            //Soyad
             System.out.print("Soyadınızı girin: ");
             String soyad = input.nextLine();
 
+            //öğrenci numarası
             System.out.print("Öğrenci Numaranız: ");
             int ogrenci_no = input.nextInt();
 
+            //yaş
             System.out.print("Yasınız: ");
             int yas = input.nextInt();
 
+            //gpa 
             System.out.print("GPA (0.00-4.00):");
             float gpa = input.nextFloat();
 
@@ -75,6 +81,8 @@ public class OgrenciBilgi {
             System.out.printf("\nOgrenci No: %d", ogrenci_no);
             System.out.printf("\nYas: %d", yas);
             System.out.printf("\nGPA %.2f", gpa);
+
+            input.close();
     }
 }
 
